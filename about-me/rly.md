@@ -23,10 +23,7 @@ Check out my projects below! Currently, the project that I'm working on the most
 
 - pytmg
   - [CLI Framework](https://github.com/pytmg/cli) - "*A neat CLI script in Python*"
-  - Websites
-    - [https://pytmg.github.io/] - Redirects you here
-    - [https://pytmg.github.io/about-me] - This site!
-    - [https://pytmg.github.io/user] - Redirects you to my user profile on GitHub
+  - [Websites](https://pytmg.github.io/sites)
   
 - GDTMGG
   - [MDViewer](https://gdtmgg.github.io/mdviewer) - Just create markdown files, i guess. I'm not fixing it if you get it off-screen though. >:(
