@@ -1,3 +1,7 @@
+if (window.href in ['https://pytmg.github.io/404.html', 'https://pytmg.github.io/404']) {
+    window.location.href = 'https://pytmg.github.io/';
+}
+
 fetch('404 Assets/markdown.md')
 .then(response => response.text())
 .then(data => {
