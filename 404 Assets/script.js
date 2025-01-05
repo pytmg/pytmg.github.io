@@ -1,4 +1,4 @@
-if (window.href in ['https://pytmg.github.io/404.html', 'https://pytmg.github.io/404']) {
+if (['https://pytmg.github.io/404.html', 'https://pytmg.github.io/404'].includes(window.location.href)) {
     window.location.href = 'https://pytmg.github.io/';
 }
 
