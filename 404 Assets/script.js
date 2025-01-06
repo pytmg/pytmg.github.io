@@ -2,7 +2,7 @@ if (['https://pytmg.github.io/404.html', 'https://pytmg.github.io/404'].includes
     window.location.href = 'https://pytmg.github.io/';
 }
 
-fetch('404 Assets/markdown.md')
+fetch('/404 Assets/markdown.md')
 .then(response => response.text())
 .then(data => {
     const markdownContent = data;
