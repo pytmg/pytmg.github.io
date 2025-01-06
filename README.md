@@ -1,5 +1,7 @@
 # pytmg.github.io
 
+![Total Commits](https://badgen.net/github/commits/pytmg/pytmg.github.io?color=black&icon=github)
+
 Current URLS
 - [Root (/)](https://pytmg.github.io/) (Redirects to /about-me)
 - [/about-me](https://pytmg.github.io/about-me)

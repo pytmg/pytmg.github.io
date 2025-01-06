@@ -1,6 +1,6 @@
 // https://raw.githubusercontent.com/pytmg/pytmg.github.io/refs/heads/main/README.md
 
-fetch('https://raw.githubusercontent.com/pytmg/pytmg.github.io/refs/heads/main/README.md')
+fetch('../README.md')
 .then(response => response.text())
 .then(data => {
     const markdownContent = data;
