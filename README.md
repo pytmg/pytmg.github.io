@@ -8,3 +8,4 @@ Current URLS
 - [/user](https://pytmg.github.io/user) (Redirects to my GitHub Profile)
 - [/repos](https://pytmg.github.io/repos)
 - [/sites](https://pytmg.github.io/sites)
+- [/cropper](https://pytmg.github.io/cropper)
