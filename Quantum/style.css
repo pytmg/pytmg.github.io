@@ -1,0 +1,137 @@
+/*
+Poppins & Protest Strike
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --topbarRadius: 10px
+}
+
+body, html {
+    background-color: #212121;
+    color: #fff;
+}
+
+#icon {
+    height: 70px;
+    border-radius: 50%;
+}
+
+#topbar {
+    height: fit-content;
+    padding: 20px;
+    max-width: 100%;
+    background-color: #323232;
+    display: flex;
+    border-bottom-left-radius: var(--topbarRadius);
+    border-bottom-right-radius: var(--topbarRadius);
+    border-top-left-radius: calc(var(--topbarRadius)/2);
+    border-top-right-radius: calc(var(--topbarRadius)/2);
+}
+
+#TitleText {
+    font-family: "Poppins";
+    position: relative;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+#TitleText2 {
+    font-family: "Poppins";
+    position: relative;
+    margin-left: 20px;
+    top: 27px;
+    font-size: 20px;
+    height: fit-content;
+}
+
+#content {
+    padding: 40px;
+    font-family: "Poppins"
+}
+
+/* Default styles for all lists */
+ul, ol {
+    padding-left: 30px; /* Indentation for nested lists */
+}
+
+/* Second level (nested ul) marker */
+ul {
+    list-style-type: circle; /* Change to circle */
+}
+
+/* Third level (nested ul within a nested ul) marker */
+ul ul ul {
+    list-style-type: square; /* Change to square */
+}
+
+/* For ordered lists */
+ol {
+    list-style-type: decimal; /* Default numbers */
+}
+
+ol ol {
+    list-style-type: lower-alpha; /* Change to lowercase letters */
+}
+
+ol ol ol {
+    list-style-type: lower-roman; /* Change to lowercase roman numerals */
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #82ffb2;
+    text-decoration: underline;
+}
+
+small {
+    color: #888;
+    font-size: 70%;
+}
+
+.accent {
+    color: #82ffb2
+}
+
+::selection {
+    color: #82ffb2;
+    background-color: #0f05;
+}
+
+#footer {
+    border-radius: 20px;
+    opacity: 0.4;
+    font-family: "Poppins";
+    height: fit-content;
+    padding: 20px;
+    width: 100vw;
+    max-width: calc(100% - 54px);
+    display: flex;
+}
+
+#footertext {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+code {
+    font-family: 'Courier New';
+    background-color: #0008;
+    border-radius: 3px;
+    border: 2px solid #fff2;
+}
+
+underline {
+    text-decoration: underline;
+}
+
+.currentPage {
+    color: #82ffff
+}

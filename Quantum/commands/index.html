@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum | Commands</title>
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <link rel="stylesheet" href="../style.css">
+    <meta name="description" content="Quantum's Commands">
+    <meta name="author" content="TMG">
+</head>
+<body>
+    <div id="topbar">
+        <img src="../Quantum.png" id="icon" class="titlebarelement">
+        <h1 id="TitleText" class="titlebarelement">Quantum</h1>
+        <a href="../" id="TitleText2">About</a>
+        <a href="../commands" id="TitleText2" class="currentPage">Commands</a>
+        <a href="../support" id="TitleText2">Support</a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1196187116569366608" id="TitleText2"><i>Invite Quantum!</i></a>
+    </div>
+    <div id="content">
+        <h1>Quantum Commands</h1>
+        <p><i>Roughly 22 Commands shown here (excluding subcommands like q!quote)</i></p>
+        <li>Fun | <i>11 Commands</i></li>
+            <ul>
+                <li><b>flipcoin</b></li>
+                <ul>
+                    <li>Flip a Coin!</li>
+                </ul>
+                <li><b>throwdice</b></li>
+                <ul>
+                    <li>Throws a dice!</li>
+                </ul>
+                <li><b>icebreaker</b></li>
+                <ul>
+                    <li>Asks an icebreaker question</li>
+                </ul>
+                <li><b>rps</b></li>
+                <ul>
+                    <li>Rock, Paper, Scissors, Shoot!</li>
+                </ul>
+                <li><b>riddle</b></li>
+                <ul>
+                    <li>Get a riddle, 20 seconds!</li>
+                </ul>
+                <li><b>quote</b> | <i>6 Subcommands</i></li>
+                <ul>
+                    <li>How to Use q!quote</li>
+                    <li>Subcommands:</li>
+                    <ul>
+                        <li><b>manual</b></li>
+                        <ul>
+                            <li>Manually type your own quotes</li>
+                        </ul>
+                        <li><b>get</b></li>
+                        <ul>
+                            <li>Get a quote by ID</li>
+                        </ul>
+                        <li><b>all</b></li>
+                        <ul>
+                            <li>Get quote IDs for the server you're in</li>
+                        </ul>
+                        <li><b>remove</b></li>
+                        <ul>
+                            <li>Remove a quote by ID</li>
+                        </ul>
+                        <li><b>channel</b></li>
+                        <ul>
+                            <li>Set the quote channel to send quotes to</li>
+                        </ul>
+                        <li><b>reply</b></li>
+                        <ul>
+                            <li>Reply to a message to create a quote</li>
+                        </ul>
+                    </ul>
+                </ul>
+                <li><b>fact</b></li>
+                <ul>
+                    <li>Gets a fact from a category or a random one</li>
+                </ul>
+                <li><b>guessthenumber + guess</b></li>
+                <ul>
+                    <li>q!guessthenumber | Start a Guess The Number game</li>
+                    <li>q!guess | Guess for the GTN game</li>
+                </ul>
+                <li><b>reddit</b></li>
+                <ul>
+                    <li>Get reddit posts from a subreddit</li>
+                </ul>
+                <li><b>qotd</b></li>
+        <ul>
+            <li>Question of the Day</li>
+            <li>Subcommands</li>
+            <ul>
+                <li>setup</li>
+                <ul>
+                    <li>Create a QOTD instance for your server.</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>Server Administrator</li>
+                    </ul>
+                </ul>
+                <li>request</li>
+                <ul>
+                    <li>Request a question to be asked for QOTD.</li>
+                </ul>
+                <li>accept</li>
+                <ul>
+                    <li>Accept requested Questions.</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>QOTD Moderator</li>
+                    </ul>
+                </ul>
+                <li>deny</li>
+                <ul>
+                    <li>Deny requested Questions.</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>QOTD Moderator</li>
+                    </ul>
+                </ul>
+                <li>setchannel (channelID) (type : [requests, questions, answers])</li>
+                <ul>
+                    <li>Set channels for QOTD.</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>QOTD Owner</li>
+                    </ul>
+                </ul>
+                <li>addmod (user)</li>
+                <ul>
+                    <li>Add QOTD Moderators.</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>QOTD Owner</li>
+                    </ul>
+                </ul>
+                <li>removemod (user)</li>
+                <ul>
+                    <li>Remove QOTD Moderators.</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>QOTD Owner</li>
+                    </ul>
+                </ul>
+                <li>checkmods</li>
+                <ul>
+                    <li>Shows you QOTD moderators for the server.</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>QOTD Owner</li>
+                    </ul>
+                </ul>
+                <li>remove</li>
+                <ul>
+                    <li>Clears QOTD data and disables QOTD for your server.</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>QOTD Owner</li>
+                    </ul>
+                </ul>
+                <li>transferownership (user)</li>
+                <ul>
+                    <li>Give someone else QOTD Owner (Note: The user must already be a QOTD Moderator)</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>QOTD Owner</li>
+                    </ul>
+                </ul>
+                <li>block (user)</li>
+                <ul>
+                    <li>Block someone from asking questions</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>QOTD Owner</li>
+                    </ul>
+                </ul>
+                <li>unblock (user)</li>
+                <ul>
+                    <li>Unblock someone from asking questions</li>
+                    <li>Required Permissions</li>
+                    <ul>
+                        <li>QOTD Owner</li>
+                    </ul>
+                </ul>
+            </ul>
+        </ul>
+            </ul>
+        <li>Moderation | <i>4 commands</i></li>
+            <ul>
+                <li><b>kick</b></li>
+                <ul>
+                    <li>Kicks the selected user</li>
+                </ul>
+                <li><b>ban</b></li>
+                <ul>
+                    <li>Permbans the selected user.</li>
+                </ul>
+                <li><b>purge</b></li>
+                <ul>
+                    <li>Removes an amount of messages</li>
+                </ul>
+                <li><b>warn</b></li>
+                <ul>
+                    <li>Warns a user</li>
+                </ul>
+            </ul>
+        <li>Utility | <i>3 commands</i></li>
+            <ul>
+                <li><b>afk</b></li>
+                <ul>
+                    <li>Makes you AFK</li>
+                </ul>
+                <li><b>pfp</b></li>
+                <ul>
+                    <li>Get a user's profile picture</li>
+                </ul>
+                <li><b>weather</b></li>
+                <ul>
+                    <li>Get the weather of a city</li>
+                </ul>
+            </ul>
+        <li>Other | <i>4 commands</i></li>
+            <ul>
+                <li><b>ping</b></li>
+                <ul>
+                    <li>Checks bot latency</li>
+                </ul>
+                <li><b>reportbug</b></li>
+                <ul>
+                    <li>Report a bug on Quantum</li>
+                </ul>
+                <li><b>suggest</b></li>
+                <ul>
+                    <li>Make a suggestion for Quantum</li>
+                </ul>
+                <li><b>about</b></li>
+                <ul>
+                    <li>About the bot</li>
+                </ul>
+            </ul>
+    </div>
+    <div id="footer">
+        <p id="footertext">© Copyright TMG - 2024</p>
+    </div>
+</body>
+</html>
