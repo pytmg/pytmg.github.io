@@ -38,7 +38,7 @@ So, yeah, thats about it from me, I'll see yous on.. some other website, idk.
 
 ```python
 # hell yeah
-from cli.beta import CLI, Option
+from cli import CLI, Option
 
 cli = CLI(title="the ujhhhh")
 
