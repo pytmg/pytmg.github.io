@@ -13,3 +13,4 @@ Current URLS
   - [/cli](https://pytmg.github.io/repo/cli) (Redirects to pytmg/cli)
 - [/sites](https://pytmg.github.io/sites)
 - [/cropper](https://pytmg.github.io/cropper)
+- [/Quantum](https://pytmg.github.io/Quantum)
